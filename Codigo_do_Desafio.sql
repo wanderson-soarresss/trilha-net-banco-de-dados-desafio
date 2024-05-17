@@ -60,15 +60,6 @@ INNER JOIN
 
 
 
-select Duracao from Filmes  
-
-
---Continuar parei do 11
-SELECT Ano, COUNT(1) Quantidade FROM Filmes GROUP BY Ano 
-order by Quantidade desc
-
-
-
 --Buscar o nome do filme e o gênero do tipo "Mistério"
 SELECT 
     f.Nome, 
